@@ -10,7 +10,7 @@ address 0x6edbe203716b31cdd270e632649476c4495fba6f86238632a525fbd7a9702ded {
             owner: address,
         }
 
-        /// Initializes a wallet for a given owner and threshold.
+        /// Initializes a wallet for a given owner d123 threshold.
         public fun initialize(wallet_owner: address, threshold: u64): Wallet {
             Wallet {
                 balance: 0,

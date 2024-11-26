@@ -17,9 +17,8 @@ address 0x6edbe203716b31cdd270e632649476c4495fba6f86238632a525fbd7a9702ded {
            threshold: threshold,
            is_open: true,
            owner: wallet_owner,
+         }
     }
-}
-
 
         /// Deposits an amount into the wallet. Closes the wallet if the balance exceeds the threshold.
         public fun deposit(wallet: &mut Wallet, amount: u64) {
